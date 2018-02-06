@@ -1,0 +1,2 @@
+ naglib = /opt/NAG/fll6a22dfl/lib/libnag_nag.a
+#naglib = /opt/NAG/fll6a22dfl/lib/libnag_acml.a

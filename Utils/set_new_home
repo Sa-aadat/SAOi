@@ -1,0 +1,4 @@
+#!/bin/bash
+grep -rlv  'albertg' ../Repo/* | xargs perl -pi~ -e 's/albertg/sp/'
+cd ../Repo
+find . -iname "*~" -exec rm -fvr {} \;

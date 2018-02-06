@@ -1,0 +1,5 @@
+# Set Linking flag for Cplex
+	cplexflag = -lpthread
+	
+# Set Cplex library path
+	cplexlib = /home/sparker/opt/ibm/ILOG/CPLEX_Studio1271/cplex/lib/x86-64_linux/static_pic/libcplex.a

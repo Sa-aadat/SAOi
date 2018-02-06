@@ -1,0 +1,37 @@
+! SAOi:
+! SAOi: Sat May 02 09:04:51 SAST 2009, Albert Groenwold, Stellenbosch
+! SAOi: A list of the VLSO example problems in the distribution
+! SAOi:
+
+
+
+This file contains a list of the very large scale optimization (VLSO)
+example problems in the current version of the distribution. To run
+one of the examples, simply copy all the files in the desired
+subdirectory to the directory where the SAOi files reside, and
+remake the SAOi executable.
+
+We hope to include the problem formulations in a nicely written
+LaTeX document shortly.
+
+Feel free to add additional example problems, and to send them to
+albertg@sun.ac.za for inclusion in future versions of the distribution.
+
+----------------+----------------------------------------------------------
+Subdirectory    | Description
+----------------+----------------------------------------------------------
+cam1            | The classical cam design problem.
+----------------+----------------------------------------------------------
+cant2           | Toropov's n-variate generalization of Svanberg's
+                | 5-variate cantilever beam.
+----------------+----------------------------------------------------------
+vdPlaats1       | Design of an n-variate cantilever beam subject to stress,
+                | geometric and displacement constraints, proposed by
+                | Vanderplaats. Roughly half the constraints are active
+                | at the optimum.
+----------------+----------------------------------------------------------
+vdPlaats2       | Design of an n-variate cantilever beam subject to stress
+                | and geometric constraints, proposed by Vanderplaats.
+                | There is no displacement constraint, hence all the
+                | constraints are active.
+----------------+----------------------------------------------------------

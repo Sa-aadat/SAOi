@@ -1,0 +1,13 @@
+galobj64d = /home/sparker/opt/galahad/objects/pc64.lnx.gf5/double
+galmod64d = /home/sparker/opt/galahad/modules/pc64.lnx.gf5/double
+gallib64d = $(galobj64d)/libgalahad.a         \
+            $(galobj64d)/libgalahad_hsl.a     \
+            /home/sparker/opt/paradiso/libpardiso500-GNU481-X86-64.so \
+            $(galobj64d)/libgalahad_metis.a   \
+            $(galobj64d)/libgalahad_wsmp.a    \
+            $(galobj64d)/libgalahad_spral.a  
+            
+#           $(galobj64d)/libgalahad_lapack.a  \   
+#           $(galobj64d)/libgalahad_blas.a    \
+#           $(galobj64d)/libgalahad_pardiso.a \
+#           $(galobj64d)/libgalahad_lapack.a  

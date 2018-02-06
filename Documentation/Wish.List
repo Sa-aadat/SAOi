@@ -1,0 +1,18 @@
+! SAOi: 
+! SAOi: Sat May 02 09:04:51 SAST 2009, Albert Groenwold, Stellenbosch 
+! SAOi: An incomplete wish list (with some sort of priority)  
+! SAOi: 
+
+
+Barzilai-Borwein solver
+Efficient bound constrained CG solver
+Improve documentation
+Many dense options not yet available in sparse
+Matlab/c/c++/Python interfaces for Functions.f, Gradients.f, Initialize.f, Specialized.f and diaHessUser.f
+Openmp/mpi and competing dual/QP solvers
+Openmp/mpi and competing global threads
+ccsa problems with storage & GPU
+GPU Blas
+Precondition the dual subproblems fed to l-bfgs-b
+Dual equality constraints
+

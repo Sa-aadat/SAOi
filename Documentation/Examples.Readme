@@ -1,0 +1,22 @@
+! SAOi: 
+! SAOi: Sat May 02 09:04:51 SAST 2009, Albert Groenwold, Stellenbosch 
+! SAOi: A list of the example problems in the distribution   
+! SAOi: 
+
+
+* Subdirectory unimodal contains unimodal test problems.
+
+* Subdirectory multimodal contains multimodal test problems. However, 
+  subdirectory unimodal also contains problems that are `weakly' 
+  multimodal, or problems that are often optimized using convex 
+  methods.
+
+* Subdirectory veryLarge contains test problems for very large scale 
+  optimization (VLSO). 
+
+* Subdirectories play and specialized are mostly for the sake of the
+  developers at this stage.
+
+Unimodal (large scale or very large scale) optimization is the intended 
+application of the SAOi algorithm, but multimodal optimization often 
+also works quite well.

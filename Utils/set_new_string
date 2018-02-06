@@ -1,0 +1,1 @@
+grep -rlv  '     &                      ruser, nnz, eqn, lin, shift' * | xargs perl -pi~ -e 's/     &                      ruser, nnz, eqn, lin, shift/     &                      ruser, nnz, nnzh, eqn, lin, shift/'

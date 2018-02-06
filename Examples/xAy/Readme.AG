@@ -1,0 +1,25 @@
+This directory contains test functions for eigenvalue, singular value decomposition (SVD) mode extraction, etc.
+
+Subdirectories:
+
+matstruc1  : 5-D small test prob, A = toeplitz                              5 x 5, dense,  modes 1 through 5, fin diff,  acurv = bcurv = 1 
+matstruc2  : 5-D small test prob, A = tri-dia toep, strictly diag dominant, 5 x 5, dense,  modes 1 through 5, fin diff,  acurv = bcurv = 1 
+matstruc3  : 5-D small test prob, A = tri-dia toep, strictly diag dominant, 5 x 5, dense,  modes 1 through 5, gradients, acurv = bcurv = 1 
+matstruc4  : n-D       test prob, A = tri-dia toep, strictly diag dominant, n x n, dense,  modes 1 through n, gradients, acurv = bcurv = 1 
+matstruc5  : n-D       test prob, A = tri-dia toep, strictly diag dominant, n x n, dense,  modes 1 through n, gradients, acurv = bcurv = 1,  provision for mayReturn for development only 
+matstruc6  : n-D       test prob, A = tri-dia toep, strictly diag dominant, n x n, sparse, modes 1 through n, gradients, acurv = bcurv = 1,  provision for mayReturn for development only 
+matstruc7  : as matstruc6, but with subsolver 27; multiple diagonal Hessian storage formats are available (1 through 3; i.e. pseudo sparse), provision for mayReturn for development only 
+matstruc8  : as matstruc7, A however = dia 
+
+testH0     : as matstruc5, but with GetFinDiffGradHessDense = .true. (H test only; written to fort.36; acurv = bcurv = 1) Discontinued due to check in dgalQP.f !
+
+testH1     : as matstruc5, but with GetFinDiffGradHessDense = .true. (H actually implemented, hard coded as Example 2 in dgalQP.f for subsolver 27 - uncomment)
+testH2     : as testH1, but formed in sparse directory (with GetFinDiffGradHessDense = .true.)
+testH3     : as testH2, but with exact sparse Hessian, A however = dia. OPTIONS FOR acurv ARE AVAILABLE IN FormHessSparseD
+testH4     : as testH2, but done in two different steps
+testH5     : as testH3, but with exact sparse Hessian, A however = not dia
+testH6     : as testH5, but generic
+
+OBSERVATION: dot_product() in Functions.f is not desirable in testH2 when finite differences are used to construct the Hessian... Why? This is however not a problem when exact Hessians are constructed without finite differences.
+
+testH7     : as testH6, but with "freezing" of previously calculated primal variables

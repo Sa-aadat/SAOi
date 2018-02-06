@@ -1,0 +1,54 @@
+! SAOi: 
+! SAOi: Sat May 02 09:04:51 SAST 2009, Albert Groenwold, Stellenbosch 
+! SAOi: A list of the multimodal example problems in the distribution   
+! SAOi: 
+
+
+
+This file contains a list of the multimodal example problems in the current 
+version of the distribution. To run one of the examples, simply copy all 
+the files in the desired subdirectory to the directory where the SAOi 
+files reside, and remake the SAOi executable.
+
+We hope to include the problem formulations in a nicely written
+LaTeX document shortly.
+
+Feel free to add additional example problems, and to send them to 
+albertg@sun.ac.za for inclusion in future versions of the distribution.
+
+----------------+----------------------------------------------------------
+Subdirectory    | Description 
+----------------+----------------------------------------------------------
+branin          | The classical unconstrained 2-variate Branin test 
+                | problem.  
+----------------+----------------------------------------------------------
+camel6          | The classical unconstrained 2-variate 6-hump camelback   
+                | problem.  
+----------------+----------------------------------------------------------
+goldprice       | The classical unconstrained 2-variate Goldstein-Price  
+                | problem.  
+----------------+----------------------------------------------------------
+griewank2       | The 2-variate unconstrained Griewank multimodal test 
+                | function; there are a few hundred local minima in the 
+                | region of interest.
+----------------+----------------------------------------------------------
+griewank10      | The 10-variate unconstrained Griewank multimodal test 
+                | function; there are a few thousand local minima in the 
+                | region of interest.
+----------------+----------------------------------------------------------
+hart3           | The classical unconstrained 3-variate Hartman 3 problem.  
+----------------+----------------------------------------------------------
+hart6           | The classical unconstrained 6-variate Hartman 6 problem.  
+----------------+----------------------------------------------------------
+partstamp1      | The constrained n-variate part stamping problem of Rao 
+                | and Mulkay.
+----------------+----------------------------------------------------------
+rastrigin       | The classical unconstrained 2-variate Rastrigin test  
+                | problem.  
+----------------+----------------------------------------------------------
+schubert        | The classical unconstrained 2-variate Schubert test  
+                | problem.  
+----------------+----------------------------------------------------------
+stencil         | Empty stencils or `macros' to make it easy to add 
+                | additional problems.
+----------------+----------------------------------------------------------

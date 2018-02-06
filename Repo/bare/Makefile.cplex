@@ -1,0 +1,5 @@
+# Set Linking flag for Cplex
+	cplexflag =
+	
+# Set Cplex library path
+	cplexlib =
