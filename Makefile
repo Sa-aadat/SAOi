@@ -19,7 +19,7 @@
 #   F77 = gfortran-4.3
 #
 # Select the new Gnu fortran95 compiler ##############################
-    F77 = gfortran-5
+    F77 = gfortran
 #
 # Select the Sun Studio Compiler (after: module add sunstudio12) #####
 #   F77 = f95  -f77=input,output  # requires F77 compliant I/O
@@ -76,7 +76,7 @@
 #   FFLAGS = -g  -Wall -Wextra -Wno-unused -fbounds-check  -frange-check
 # 
 # Specify C compiler
-    GC = gcc-5
+    GC = gcc
 #    
 # Specify flags for the C compiler
     CFLAGS = -g -Wall -Warray-bounds -fbounds-check -Wconversion -Wno-unused  -Wno-unused-function -mcmodel=medium -m64
